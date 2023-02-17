@@ -46,8 +46,6 @@ const buttonPress = (id) => {
     calculate();
   } else if (id === "c") {
     clearButton();
-  } else if (id === "+/-" || id === "%" || id === "<") {
-    console.log("I don't know what this button does lol");
   } else {
     display.innerText += id;
   }
